@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="registration-form.css">
+
+    <title>Google forms</title>
+</head>
+<body>
+
+    <!-- main div -->
+    <div class="main-div">
+
+        <form class="form" action="" method="post">
+
+            <!-- introduction div -->
+            <div class="intro-texts bg-white rounded border-t-8 border-t-blue-900 mx-96">
+
+                <h1 class="h1-text">Codetrain Registration Form</h1>
+
+                <p>
+                    There are 3 steps in our application process. 
+                    Firstly, fill this enrolment form, and then our 
+                    admissions team will reach out to you to find 
+                    out if you are a good fit for the program. 
+                    If you make it through, we will assist you to 
+                    get started on the admissions process.
+                </p>
+
+                <hr>
+
+                <p>
+                    isaacmanuopoku@gmail.com 
+                    <a href="">Switch account</a>
+                </p>
+
+                <p class="required"> <sup>*</sup>Required</p>
+
+            </div>
+
+            <div class="email-div">
+                <label for="email">
+                    Email
+                    <sup>*</sup>
+                </label>
+                <input type="email" class="email" id="email" placeholder="Your email">
+            </div>
+
+            <div class="full-name-div">
+                <label for="full-name"> 
+                    Full Name 
+                    <sup>*</sup> 
+                </label>
+                <input type="text" class="full-name" id="full-name" placeholder="Your answer">
+            </div>
+
+            <div class="nextOfKing-div">
+                <label for="nextOfKing-number"> 
+                   Phone number of next of kin
+                    <p>
+                        Phone number of someone we can reach out to in case your 
+                        phone is off or not reachable. Eg, your parent, guardian 
+                        or sibling, or spouse
+                    </p>
+                    <!-- <sup>*</sup> -->
+                </label>
+                <input type="text" class="nextOfKing-number" id="nextOfKing-number" placeholder="Your answer">
+            </div>
+
+            <div class="amount-div">
+
+                <p> 
+                    Can you pay 60% or more of the full Codetrain fees (GHS6000)
+                    <sup>*</sup> 
+                </p>
+
+                <input type="radio" name="amount" class="radio-no" id="radio-no">
+                <label for="radio-no">No</label>
+
+                <br>
+
+                <input type="radio" name="amount" class="radio-yes" id="radio-yes">
+                <label for="radio-yes">Yes</label>
+
+            </div>
+
+            <div class="goingToPay-div">
+
+                <p> 
+                    Please indicate who is going to pay your fees 
+                    <sup>*</sup> 
+                </p>
+
+                <input type="radio" name="toPay" class="yourself" id="yourself">
+                <label for="yourself">Yourself</label>
+
+                <br>
+
+                <input type="radio" name="toPay" class="parent-sponsor" id="parent-sponsor">
+                <label for="parent-sponsor">Parent / Sponser</label>
+
+                <br>
+
+                <input type="radio" name="toPay" class="organization" id="organization">
+                <label for="organization">Organization</label>
+
+            </div>
+
+            <div class="location-div">
+                <label for="location">
+                    Location 
+                    <sup>*</sup> 
+                </label>
+                <input type="text" class="location" id="location" placeholder="Your answer">
+            </div>
+
+            <div class="sch-div">
+                <label for="sch"> 
+                    Current or previous school  
+                    <sup>*</sup> 
+                </label>
+                <input type="text" class="sch" id="sch" placeholder="Your answer">
+            </div>
+
+            <div class="whyCodetrain-div">
+                <label for="whyCodetrain"> 
+                    Why do you want to join Codetrain 
+                    <sup>*</sup> 
+                </label>
+                <input type="text" class="whyCodetrain" id="whyCodetrain" placeholder="Your answer">
+            </div>
+
+            <div class="howDidYou-div">
+                <label for="howDidYou"> 
+                    How did you hear about Codetrain? 
+                    <sup>*</sup> 
+                </label>
+                <input type="text" class="howDidYou" id="howDidYou" placeholder="Your answer">
+            </div>
+
+            <div class="footer-elements">
+
+                <p class="responses">A copy of your responses will be emailed to the address that you provided.</p>
+
+                <div class="flex-display">
+                    
+                    <input type="button" value="Submit">
+                    
+                    <span class="page-progress"></span>
+
+                    <p>Page 1 of 1</p>
+
+                    <input type="button" class="clear-form" value="Clear form">
+
+                </div>
+
+                <p class="warning">Never submit passwords through Google Forms.</p>
+                        
+                <p class="warning-1">
+                    This content is neither created nor endorsed by Google.
+                    <a href="">Report Abuse</a>
+                    <span>-</span>
+                    <a href="">Terms Of Service</a>
+                    <span>-</span>
+                    <a href="">Privicy Policy</a>
+                </p>
+
+                <p class="brand-name"><span class="google">Google</span> Forms</p>
+            </div>    
+
+        </form>
+
+    </div>
+
+</body>
+</html>
